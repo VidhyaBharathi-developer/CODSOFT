@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative Job Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Find Your Dream Job</h1>
+        <input type="text" placeholder="Search for jobs..." class="search-bar">
+    </header>
+
+    <section class="job-listings">
+        <div class="job-card">
+            <h2>Software Engineer</h2>
+            <p><strong>Company:</strong> Vibro</p>
+            <p><strong>Location:</strong> Banglore</p>
+            <button class="apply">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h2>Data Analyst</h2>
+            <p><strong>Company:</strong> Google</p>
+            <p><strong>Location:</strong> USA</p>
+            <button class="apply">Apply Now</button>
+        </div>
+    </section>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #51fd6edc, #0072ff);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.search-bar {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.job-listings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.job-card {
+    background: rgba(44, 255, 72, 0.988);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(183, 43, 43, 0.962);
+    width: 50%;
+    margin: auto;
+}
+
+.apply {
+    background: #d7890a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+</style>
+</body>
+</html>
+
